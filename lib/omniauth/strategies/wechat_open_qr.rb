@@ -2,7 +2,7 @@ require "omniauth-oauth2"
 
 module OmniAuth
   module Strategies
-    class Wechat < OmniAuth::Strategies::OAuth2
+    class WechatOpenQr < OmniAuth::Strategies::OAuth2
       # Give your strategy a name.
       option :name, "wechat_open_qr"
 
